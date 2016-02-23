@@ -1,0 +1,67 @@
+/**
+ * Logo.
+ *
+ * *.logo[data-logo][data-color]
+ *   *
+ */
+
+.logo[data-logo="factsandfictions"],
+.logo[data-logo="fctsfxns"] {
+  width: 360px;
+}
+
+.logo[data-logo="factsandfictions"] > *,
+.logo[data-logo="fctsfxns"] > * {
+  background-image: url(images/logo.svg);
+  margin: .1em 0;
+}
+
+.logo[data-logo="factsandfictions"][data-color="purple"] > *,
+.logo[data-logo="fctsfxns"][data-color="purple"] > * {
+  background-image: url(images/logo.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="blue"] > *,
+.logo[data-logo="fctsfxns"][data-color="blue"] > * {
+  background-image: url(images/logo-blue.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="white"] > *,
+.logo[data-logo="fctsfxns"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="black"] > *,
+.logo[data-logo="fctsfxns"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+/**
+ * Icon.
+ */
+.logo[data-logo="factsandfictions"][data-variation="icon"] > *,
+.logo[data-logo="fctsfxns"][data-variation="icon"] > * {
+  background-image: url(images/logo-square.svg);
+  width: 256px;
+  margin: .1em 0;
+}
+
+.logo[data-logo="factsandfictions"][data-color="purple"][data-variation="icon"] > *,
+.logo[data-logo="fctsfxns"][data-color="purple"][data-variation="icon"] > * {
+  background-image: url(images/logo-square.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="blue"][data-variation="icon"] > *,
+.logo[data-logo="fctsfxns"][data-color="blue"][data-variation="icon"] > * {
+  background-image: url(images/logo-square-blue.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="white"][data-variation="icon"] > *,
+.logo[data-logo="fctsfxns"][data-color="white"][data-variation="icon"] > * {
+  background-image: url(images/logo-square-white.svg);
+}
+
+.logo[data-logo="factsandfictions"][data-color="black"][data-variation="icon"] > *,
+.logo[data-logo="fctsfxns"][data-color="black"][data-variation="icon"] > * {
+  background-image: url(images/logo-square-black.svg);
+}

@@ -1,0 +1,23 @@
+{
+  "logo": "factsandfictions",
+  "name": "factsandfictions-logo",
+  "repo": "FctsFxns/fctsfxns-logo",
+  "description": "The logo for facts&fictions.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": ["logo", "facts&fictions", "fctsfxns"],
+  "styles": ["index.css"],
+  "dependencies": {
+    "logo/logo": "*"
+  },
+  "images": [
+    "images/logo-square-black.svg",
+    "images/logo-square-white.svg",
+    "images/logo-square-blue.svg",
+    "images/logo-square.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg",
+    "images/logo-blue.svg",
+    "images/logo.svg"
+  ]
+}
