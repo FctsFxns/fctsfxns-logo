@@ -11,7 +11,7 @@ $ component install FctsFxns/fctsfxns-logo
   <*></*>
 </*>
 
-<* class="logo" data-logo="factsandfictions-square" data-color="purple|white|black|blue">
+<* class="logo" data-logo="factsandfictions" data-variation="icon" data-color="purple|white|black|blue">
   <*></*>
 </*>
 
